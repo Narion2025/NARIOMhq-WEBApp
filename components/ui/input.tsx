@@ -1,0 +1,1 @@
+export const Input = (props) => <input {...props} className={`rounded px-2 py-1 bg-gray-700 border border-gray-600 text-white ${props.className || ''}`} />;
